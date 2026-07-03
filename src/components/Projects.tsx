@@ -39,7 +39,7 @@ const PROJECTS_DATA: Project[] = [
       "Tailwind CSS",
       "Bootstrap",
     ],
-    gradient: "from-violet-600 via-indigo-800 to-purple-950",
+    gradient: "from-violet-500 via-indigo-700 to-slate-950",
     liveUrl: "#",
     githubUrl: "https://github.com/zeelghori27012004/ConnectCo",
     mockType: "dashboard",
@@ -51,7 +51,7 @@ const PROJECTS_DATA: Project[] = [
     description:
       "Designed and implemented a PostgreSQL database schema for an audio streaming platform using ER modeling, normalization, and SQL queries for efficient data management.",
     tags: ["PostgreSQL", "DBMS", "ER Diagram", "Normalization", "SQL"],
-    gradient: "from-cyan-500 via-blue-700 to-indigo-950",
+    gradient: "from-cyan-400 via-sky-600 to-blue-950",
     liveUrl: "#",
     githubUrl: "https://github.com/Kritarth22/SONICSPHERE_AUDIOSTREAMING_APP",
     mockType: "music",
@@ -63,13 +63,25 @@ const PROJECTS_DATA: Project[] = [
     description:
       "It allows users to add, edit, and delete tasks, with persistent storage using the browser's localStorage — so your tasks stay saved even after refreshing or closing the tab.",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    gradient: "from-emerald-500 via-teal-700 to-cyan-950",
+    gradient: "from-emerald-400 via-green-600 to-teal-950",
     liveUrl: "#",
     githubUrl: "https://github.com/Kritarth22/TO-DO-List",
     mockType: "editor",
   },
   {
     id: 4,
+    title: "NEXCHAT",
+    category: "fullstack",
+    description:
+      "A real-time chat application built with Next.js and Stream Chat, featuring user authentication with NextAuth.js and a modern UI.",
+    tags: ["Next.js", "TypeScript", "Prisma", "Stream Chat", "NextAuth.js", "TailwindCSS"],
+    gradient: "from-sky-500 via-cyan-600 to-slate-950",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Kritarth22/NEXCHAT",
+    mockType: "chat",
+  },
+  {
+    id: 5,
     title: "Cartify-Figma UI design",
     category: "design",
     description:
@@ -81,7 +93,7 @@ const PROJECTS_DATA: Project[] = [
     mockType: "ecom",
   },
   {
-    id: 5,
+    id: 6,
     title: "Sudoku",
     category: "frontend",
     description:
@@ -93,7 +105,7 @@ const PROJECTS_DATA: Project[] = [
     mockType: "sudoku",
   },
   {
-    id: 6,
+    id: 7,
     title: "Amazon-UI-Clone",
     category: "design",
     description:
@@ -219,15 +231,15 @@ export default function Projects() {
                 {project.mockType === "chat" && (
                   <div className="flex flex-col justify-between w-full h-full gap-1">
                     <div className="flex items-center justify-between border-b border-zinc-800 pb-1 font-mono text-[7px] text-zinc-500">
-                      <span>SYNAPSE CHAT</span>
+                      <span>NEXCHAT</span>
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                     </div>
                     <div className="flex flex-col gap-1 my-1">
                       <div className="bg-zinc-900 border border-zinc-800 rounded px-1.5 py-1 text-[7px] max-w-[80%] self-start text-zinc-400 leading-normal">
-                        How is the new API scaling?
+                        Hey, how u doin'?
                       </div>
                       <div className="bg-violet-600 text-white rounded px-1.5 py-1 text-[7px] max-w-[80%] self-end leading-normal">
-                        All pipelines responsive and optimized!
+                        Trying to do better!!✌️
                       </div>
                     </div>
                     <div className="h-3 w-full bg-zinc-900 rounded border border-zinc-800 flex items-center justify-between px-1.5">
