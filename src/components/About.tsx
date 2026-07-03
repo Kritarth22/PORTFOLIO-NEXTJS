@@ -182,7 +182,7 @@ export default function About() {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/uc?export=download&id=1hatK5JcDEki8KlAXMc4Q4ups-AfGtA3g",
+                  "https://drive.google.com/uc?export=download&id=1mduYs_vAldykRNR_f_NkmKYwXvuf1ToS",
                   "_blank",
                 )
               }
@@ -197,4 +197,9 @@ export default function About() {
   );
 }
 
+// old drive link for resume download
 // https://drive.google.com/file/d/1hatK5JcDEki8KlAXMc4Q4ups-AfGtA3g/view?usp=drive_link
+
+
+// new drive link for resume download
+// https://drive.google.com/file/d/1mduYs_vAldykRNR_f_NkmKYwXvuf1ToS/view?usp=sharing
