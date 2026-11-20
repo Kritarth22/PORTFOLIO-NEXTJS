@@ -182,8 +182,8 @@ export default function About() {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/uc?export=download&id=1mduYs_vAldykRNR_f_NkmKYwXvuf1ToS",
-                  "_blank",
+                  "https://drive.google.com/file/d/1pKvnuvf8zM-tbry1LfPReX6sqf0ch85C/view",
+                  "_blank"
                 )
               }
               className="px-5 py-3 rounded-full text-xs font-mono font-bold border border-zinc-800 text-zinc-400 hover:text-zinc-100 hover:border-zinc-700 flex items-center gap-2 transition-colors"
